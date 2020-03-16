@@ -69,7 +69,7 @@ int main()
 
 { 
 
-while(!explanation){explanation()}
+while(!explanation){explanation();}
 
 std::cout <<"Enter T value: "; 
 
