@@ -11,7 +11,7 @@
 // 
 
 #include<cmath> 
-
+#include <string>
 #include<iostream> 
 
 double g = 9.8; 
@@ -54,9 +54,22 @@ double qb = 0;
 
 double ta = 0; 
 
+bool explanation()
+{
+	bool done = true;
+	for(int far = 0; far != 50; far++)
+	{
+		std::cout << std::endl;
+	}
+	std::cout << "The variable I stands for the impulsion of the rocket engine" << std::endl <<"The variable T stands for the maximum thrust of the rocket engine" << std::endl <<"The variable A stands for the area of the rocket" << std::endl << "The variable v stands for the velocity at burnout" << std::endl;
+	return done;
+}
+
 int main() 
 
 { 
+
+while(!explanation){explanation()}
 
 std::cout <<"Enter T value: "; 
 
